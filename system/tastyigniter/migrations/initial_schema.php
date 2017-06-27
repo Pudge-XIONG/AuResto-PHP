@@ -688,7 +688,7 @@ $insert_settings_data = "
   (10858, 'config', 'customer_order_email', '1', 0),
   (10859, 'config', 'customer_reserve_email', '1', 0),
   (10860, 'config', 'main_address', 'a:6:{s:9:\"address_1\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:4:\"city\";s:0:\"\";s:8:\"postcode\";s:0:\"\";s:11:\"location_id\";s:0:\"\";s:10:\"country_id\";s:1:\"1\";}', 1),
-  (10861, 'config', 'maps_api_key', '', 0),
+  (10861, 'config', 'maps_api_key', 'AIzaSyDKVBGu-O-OYgkxtcFiHzZgGSOCXruS1ro', 0),
   (10863, 'config', 'distance_unit', 'mi', 0),
   (10864, 'config', 'future_orders', '0', 0),
   (10865, 'config', 'location_order', '1', 0),

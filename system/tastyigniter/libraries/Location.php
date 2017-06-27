@@ -757,8 +757,17 @@ class Location {
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 		curl_setopt($ch, CURLOPT_USERAGENT, $this->CI->agent->agent_string());
 		$geocode_data = curl_exec($ch);
+		try {
+            if (FALSE === $geocode_data) {
+                throw new Exception(curl_error($ch), curl_errno($ch));
+            }
+        } catch(Exception $e){
+		    log_message("error", 'Curl failed with error '.$e->getCode().': '.$e->getMessage());
+        }
 		curl_close($ch);
 
 		$output = json_decode($geocode_data);											// decode the geocode data
