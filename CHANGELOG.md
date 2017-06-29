@@ -93,7 +93,7 @@ Release Date: January 2016 (postponed: 15 March 2016)
 * New mail templates variables (site_logo, site_url, staff_name, staff_username, status_name, status_comment)
 * Authorize.Net (AIM) Payment gateway
 * Template Library function `getActiveThemeOptions()` to retrieve admin theme customizer options and `get_theme_options()` helper function to use within theme files
-* Google analytics tracking code and social links theme options to tastyigniter-orange theme
+* Google analytics tracking code and social links theme options to auresto-orange theme
 * New mail templates to send emails to notify customer of order or reservation status update
 * Dynamic menu navigation from nav_menu array in theme config, so that menu items can be easily managed
 * Location Library `orderTimeRange()` function to retrieve location order time ranges
@@ -111,7 +111,7 @@ Release Date: January 2016 (postponed: 15 March 2016)
 * Themes: option to add and delete theme in the admin backend plus template helper new method `delete_theme`
 * Local Module: option to enable or disable single or multi location search mode and selected location for single mode, where orders will be sent.
 * Config helper to write configuration value like encryption key into config file
-* System Events: hooks to allow you integrate your custom modifications into various points within TastyIgniter’s execution
+* System Events: hooks to allow you integrate your custom modifications into various points within AuResto’s execution
 * Categories: status field to enable or disable selected category in storefront
 * Location library `setDeliveryArea()` and `getAreaId()` method to update location delivery area when customer delivery address changes
 * Extension library `latestMigration()` method to migrate module migrations to the current version
@@ -121,7 +121,7 @@ Release Date: January 2016 (postponed: 15 March 2016)
 * `Site.Updates` permission rule to control staff permission to Update system
 * Installer Library `getSysInfo()` function to retrieve current system info, such as ti version, php and mysql version
 * Installer Library `upgrade()` function to install database migration and update core version after updating core files
-* Added TastyIgniter news feed to admin dashboard, also added Feed_parser library to read and parse the RSS feed XML
+* Added AuResto news feed to admin dashboard, also added Feed_parser library to read and parse the RSS feed XML
 * Added missing `getStaffEmail()` to retrieve currently logged staff email
 * New mail template variable `{order_comment}`, `{reservation_comment}` and `{telephone}` to display the order comment and customer telephone in emails
 
@@ -153,7 +153,7 @@ Release Date: January 2016 (postponed: 15 March 2016)
 * Improved database migration such that initial data schema can be inserted while migration is running instead of after. This fixes issue where mail templates data is not updated
 * Improved system setup: added one additional step to system setup to confirm license agreement.
 * Postcode no longer a required field for non-UK
-* Database Maintenance: now saves database backup files into `tastyigniter/migrations/backups` instead of `assets/downloads/` as added security
+* Database Maintenance: now saves database backup files into `auresto/migrations/backups` instead of `assets/downloads/` as added security
 * Moved `load_db_config()` method from `TI_Config` to `TI_Loader`, so that database config items are loaded earlier in the system
 * Renamed admin, main and setup language file `english/english_lang.php` to `english/default_lang.php` to allow seamless translation
 * Removed timezone and language settings from staff edit in admin panel
@@ -326,7 +326,7 @@ CHANGES:
     * Action  - The permitted action (View, Manage, Add, Edit, Delete, etc.).
 * Removed Setting Library, no longer used. (functionality moved to Base_Controller)
 * Removed permission context (controller and view files), no longer needed. (Permission error message displayed using alerts)
-* Add tastyigniter_helper to include `log_activity()` and other general helpers
+* Add auresto_helper to include `log_activity()` and other general helpers
 * Activities:
     * Rename Notifications_model to Activities_model
     * add notifications from inside controllers instead of models

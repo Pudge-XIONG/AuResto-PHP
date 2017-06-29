@@ -1,13 +1,13 @@
 <?php
 /**
- * TastyIgniter
+ * AuResto
  *
  * An open source online ordering, reservation and management system for restaurants.
  *
- * @package   TastyIgniter
+ * @package   AuResto
  * @author    SamPoyigi
- * @copyright TastyIgniter
- * @link      http://tastyigniter.com
+ * @copyright AuResto
+ * @link      http://auresto.com
  * @license   http://opensource.org/licenses/GPL-3.0 The GNU GENERAL PUBLIC LICENSE
  * @since     File available since Release 1.0
  * @filesource

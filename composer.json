@@ -1,22 +1,22 @@
 {
-  "name": "tastyigniter/tastyigniter",
-  "description": "TastyIgniter is a free open source online ordering and restaurant management system",
+  "name": "auresto/auresto",
+  "description": "AuResto is a free open source online ordering and restaurant management system",
   "type": "project",
   "keywords": [
-    "tastyigniter",
+    "auresto",
     "restaurant",
     "ordering",
     "ecommerce",
     "opensource"
   ],
-  "homepage": "https://tastyigniter.com",
+  "homepage": "https://auresto.com",
   "license": "GPL-3.0+",
   "support": {
-    "issues": "https://github.com/tastyigniter/TastyIgniter/issues",
-    "forum": "https://forum.tastyigniter.com/",
-    "irc": "irc://irc.freenode.net/tastyigniter",
-    "docs": "https://docs.tastyigniter.com",
-    "source": "https://github.com/tastyigniter/TastyIgniter"
+    "issues": "https://github.com/auresto/AuResto/issues",
+    "forum": "https://forum.auresto.com/",
+    "irc": "irc://irc.freenode.net/auresto",
+    "docs": "https://docs.auresto.com",
+    "source": "https://github.com/auresto/AuResto"
   },
   "require": {
     "php": ">=5.4.0"

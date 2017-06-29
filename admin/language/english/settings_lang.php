@@ -152,7 +152,7 @@ $lang['alert_email_sent'] 		                = 'Email sent to %s';
 $lang['alert_success_thumb_deleted'] 		    = 'Thumbs deleted successfully.';
 
 $lang['help_timezone'] 		                    = 'The default timezone. Choose a city in the same timezone as your restaurant.';
-$lang['help_detect_language'] 		            = 'Enable or disable user browser language detection. If enabled TastyIgniter will be translated to the browser language.';
+$lang['help_detect_language'] 		            = 'Enable or disable user browser language detection. If enabled AuResto will be translated to the browser language.';
 $lang['help_auto_update_rates'] 		        = 'Set whether to update currency rates automatically every 24 hours or manually. Currency rates are imported from the Yahoo finance database.';
 $lang['help_accepted_currency'] 		        = 'Select all currencies that you accept as payment as well as your default currency';
 $lang['help_page_limit'] 		                = 'Limit how many items are shown per page';

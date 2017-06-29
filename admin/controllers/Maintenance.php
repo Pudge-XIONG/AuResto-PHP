@@ -95,7 +95,7 @@ class Maintenance extends Admin_Controller {
         if ($this->input->post('file_name')) {
             $data['file_name'] = $this->input->post('file_name');
         } else {
-            $data['file_name'] = 'tastyigniter-' . $timestamp;
+            $data['file_name'] = 'auresto-' . $timestamp;
         }
 
         if ($this->input->post('drop_tables')) {

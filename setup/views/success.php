@@ -21,7 +21,7 @@
 				<?php echo lang('text_join_community'); ?>
 			</div>
 			<div class="col-md-4 col-sm-4 text-center">
-				<a target="_blank" class="btn btn-primary" href="http://forum.tastyigniter.com/member.php?action=register">Register</a>
+				<a target="_blank" class="btn btn-primary" href="http://forum.auresto.com/member.php?action=register">Register</a>
 			</div>
 		</div>
 	</div>

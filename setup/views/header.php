@@ -15,7 +15,7 @@
 			<div class="col-md-7 center-block">
 				<div class="row page-header">
 					<div class="col-xs-12 col-md-4 navbar-right">
-						<img src="<?php echo base_url('views/assets/tastyigniter-logo.png'); ?>" alt="TastyIgniter Logo">
+						<img src="<?php echo base_url('views/assets/auresto-logo.png'); ?>" alt="AuResto Logo">
 					</div>
 					<div class="col-xs-12 col-md-8">
 						<h1><?php echo $text_heading; ?></h1>

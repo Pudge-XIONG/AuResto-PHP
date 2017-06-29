@@ -5,7 +5,7 @@
 | Extension Meta
 |--------------------------------------------------------------------------
 |
-| The extension meta data that tells TastyIgniter that an extension is a valid module, payment or widget,
+| The extension meta data that tells AuResto that an extension is a valid module, payment or widget,
 | only array element name and version are STRONGLY required
 |
 | 'name'        => The name of your extension

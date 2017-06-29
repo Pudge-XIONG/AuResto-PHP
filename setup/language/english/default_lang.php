@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['text_title'] 		            = 'TastyIgniter - Setup - %s';
+$lang['text_title'] 		            = 'AuResto - Setup - %s';
 $lang['text_license_heading'] 		    = 'License agreement';
 $lang['text_requirement_heading'] 		= 'Server Requirements';
 $lang['text_database_heading'] 		    = 'Database Settings';
 $lang['text_settings_heading'] 		    = 'Site Settings';
 $lang['text_success_heading'] 		    = 'Installation Successful';
 
-$lang['text_license_sub_heading']       = 'Please read the TastyIgniter Licence agreement.';
+$lang['text_license_sub_heading']       = 'Please read the AuResto Licence agreement.';
 $lang['text_requirement_sub_heading']   = 'Check below to make sure all server requirements are met.';
 $lang['text_database_sub_heading']      = 'Enter your database connection details.';
 $lang['text_settings_sub_heading']      = 'Enter your restaurant and administrator details.';
@@ -29,10 +29,10 @@ $lang['text_goto_storefront'] 		    = 'Go to your Online Restaurant';
 $lang['text_next_step'] 		        = 'Next Step:';
 $lang['text_restaurant_details'] 	    = 'Restaurant settings';
 $lang['text_admin_details'] 		    = 'Administration settings';
-$lang['text_installation_success'] 	    = 'TastyIgniter has been installed successfully.';
+$lang['text_installation_success'] 	    = 'AuResto has been installed successfully.';
 $lang['text_join_community'] 	        = '<h3>Join the community</h3><span>Receive future updates, recent news and free support.</span>';
 
-$lang['text_tastyigniter_home'] 	    = 'TastyIgniter Homepage';
+$lang['text_auresto_home'] 	    = 'AuResto Homepage';
 $lang['text_documentation'] 		    = 'Documentation';
 $lang['text_community_forums'] 		    = 'Community Forums';
 $lang['text_feature_request'] 			= 'Feature Requests';
@@ -68,7 +68,7 @@ $lang['help_dbprefix'] 				    = 'The database table prefix. Do not change unles
 $lang['button_continue'] 				= 'Continue';
 $lang['button_back'] 				    = 'Back';
 
-$lang['alert_license_error'] 		    = 'Please read the TastyIgniter license before proceeding.';
+$lang['alert_license_error'] 		    = 'Please read the AuResto license before proceeding.';
 $lang['alert_requirement_error'] 		= 'Error checking server requirements, please make sure all lights are green.';
 $lang['alert_database_error'] 		    = 'Database connection was unsuccessful, please make sure the database server, username and password is correct.';
 $lang['alert_settings_error'] 		    = 'Error installing user and site settings.';

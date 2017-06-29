@@ -210,7 +210,7 @@
  *
  * And away we go...
  */
-require_once BASEPATH.'tastyigniter/core/TastyIgniter.php';
+require_once BASEPATH.'auresto/core/AuResto.php';
 
 /* End of file index.php */
 /* Location: ./index.php */
